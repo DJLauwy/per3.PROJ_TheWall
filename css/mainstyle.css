@@ -1,0 +1,648 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face{
+	font-family: Vonique;
+	src:url('../files/Vonique 43_D.otf');
+}
+
+body{
+	background-color: #313339;
+}
+
+nav{
+	width:100%;
+	background-color: #26282C;
+	display: flex;
+	align-items: center;
+	height:5vh;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.back{
+	display: block;
+}
+
+.back-button{
+	display: flex;
+	font-size:20pt;
+	font-family: Vonique, sans-serif;
+	color:#F0DE86;
+	width:100px;
+}
+
+.back-button > img{
+	padding-top:8px;
+}
+
+.back-button > p{
+	padding-top:5px;
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height:80px;
+	background-color: #26282C;
+}
+
+footer > div{
+	display: flex;
+	justify-content: center;
+	width:33vw;
+}
+
+footer > div:nth-of-type(1) > img{
+	margin:5px;
+}
+
+footer > div:nth-of-type(2) > a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer > div > p{
+	font-family: Vonique, sans-serif;
+	font-size: 12pt;
+}
+
+footer > div > a > p{
+	font-family: Vonique, sans-serif;
+	font-size: 10pt;
+}
+
+
+
+	/* START PAGE */
+.start-logo{
+	width:100vw;
+	height:50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.start-logo:nth-of-type(2){
+	display: flex;
+	flex-direction: column;
+}
+
+.login-button{
+	font-family: Vonique, sans-serif;
+	width:90%;
+	padding:15px 15px 0 15px;
+	margin:10px;
+	font-size:20pt;
+	background: none;
+	border:2px solid #F0DE86;
+	border-radius:50px;
+	color:#F0DE86;
+	width:90vw;
+	text-align: center;
+}
+
+.register-button{
+	background-color: #F0DE86;
+	color:#313339;
+	font-size:20pt;
+}
+
+
+
+	/* FAQ */
+.faq{
+	width:100vw;
+	padding:10%;
+	box-sizing: border-box;
+}
+
+.faq > h2{
+	font-size: 24pt;
+}
+
+.faq > p{
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+}
+
+
+
+	/* REGISTER SCREEN */
+.register-logo{
+	width:100vw;
+	height:15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.register-logo > h1{
+	font-size:30pt;
+}
+
+.register{
+	width:100vw;
+	height:80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.register > form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.register > form > input{
+	width:80vw;
+	font-size:15pt;
+	margin:20px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius:15px;
+	padding:15px;
+	background-color: #484A4E;
+	color:#fff;
+	border:none;
+	color:#F0DE86;
+}
+
+form > span{
+	display: flex;
+	align-items: center;
+	width:80vw;
+}
+
+#voorwaarden{
+	background-color: #313339;
+	min-width:25px;
+	min-height:25px;
+	margin-right:25px;
+	margin-left:-10px;
+}
+
+.register > form > span > p{
+	font-size:10pt;
+	color:#F0DE86;
+} 
+
+.register > form > span > p > a{
+	color:#F0DE86;
+	text-decoration: underline;
+}
+
+#send-button{
+	font-family: Vonique, sans-serif;
+	width:90%;
+	padding:15px 15px 0 15px;
+	margin:15px;
+	font-size:20pt;
+	background-color: #F0DE86;
+	border:3px solid #F0DE86;
+	border-radius:50px;
+	color:#313339;
+}
+
+
+
+	/* LOGIN SCREEN */
+.login-logo{
+	align-items: center;
+	text-align: center;
+	display: flex;
+	height:15vh;
+	flex-direction: column;
+}
+
+.login-logo > h1{
+	margin-top:50px;
+	font-size: 24pt;
+}
+
+.login-logo > h2{
+	margin-top:20px;
+	font-size: 14pt;
+	width:80%;
+}
+
+
+
+	/* HOME PAGE */
+.post-body{
+	background-color: #424242;
+}
+
+.profile-menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 50%;
+}
+
+.profile-menu > p{
+	margin-right:10px;
+}
+
+.user-photo-small{
+	width:36px;
+	height:36px;
+	background-color:#3a3d42;
+	border-radius:18px;
+	margin-right:10px;
+}
+
+.post{
+	background-color: #313339;
+	width:100%;
+	margin-bottom:8px;
+	padding:5px 0;
+}
+
+.post > img{
+	background-color: #fff;
+	width:100%;
+	max-height:500px;
+	object-fit: cover;
+}
+
+.author{
+	font-size:10pt;
+	padding-left:5px;
+	padding-bottom:5px;
+	font-style: italic;
+}
+
+.author > a{
+	color:#F0DE86;
+}
+
+.post-title{
+	font-size:12pt;
+	font-style: normal;
+}
+
+.description{
+	overflow-y: scroll;
+	max-height: 100px;
+	padding:0 5px;
+}
+
+#roll-over{
+	transition: all .2s ease-in-out;
+}
+
+#roll-over:hover{
+	transform: scale(1.02);
+}
+
+
+
+	/* PROFILE */
+.profile-nav{
+	height: 5vh;
+}
+
+.profile-main{
+	height: 85vh;
+	overflow-y: scroll;
+}
+
+.profile-main-div {
+	width: 100%;
+	display: flex;
+	margin-bottom: auto;
+	flex-wrap: wrap;
+}
+
+.profile-post{
+	background-color: #313339;
+	width:20vw;
+	height:20vw;
+	padding:1px;
+	box-sizing: border-box;
+}
+
+.profile-post > img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+}
+
+.edit-post{
+	width:15%;
+	font-family: Vonique, sans-serif;
+	text-align: center;
+	background-color:#F0DE86;
+	border-radius: 20px;
+	padding-top:3px;
+	font-size:8pt;
+	margin-right:20px;
+}
+
+.edit-post > a{
+	color:#313339;
+}
+
+.upload-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100vw;
+	height:10vh;
+	background-color: #26282C;
+}
+
+
+
+	/* UPLOAD PAGE */
+.upload-page > form{
+	text-align: center;
+}
+
+.upload-page > form > input, textarea{
+	width:80vw;
+	font-size:12pt;
+	margin:10px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius:15px;
+	padding:15px;
+	background-color: #484A4E;
+	color:#fff;
+	border:none;
+	color:#F0DE86;
+}
+
+#upload-button{
+	font-family: Vonique, sans-serif;
+	width:90%;
+	padding:15px 15px 0 15px;
+	font-size:20pt;
+	background-color: #F0DE86;
+	border-radius:50px;
+	color:#313339;
+}
+
+.announcement{
+	text-align: center;
+	padding-top:30vh;
+	padding-bottom:5vh;
+}
+
+#return-button{
+	margin:auto;
+	text-align: center;
+	font-family: Vonique, sans-serif;
+	width:80vw;
+	background-color: #F0DE86;
+	color:#313339;
+	font-size: 16pt;
+	padding:10px 5px 5px 5px;
+	border-radius: 25px;
+}
+
+#return-button > a{
+	color:#313339;
+}
+
+.upload-page > a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100vw;
+}
+
+
+
+	/* EDIT & DELETE PAGE */
+.photo-edit-page{
+	width:280px;
+	height:280px;
+	object-fit: cover;
+	margin-top:10px;
+}
+
+#delete-button{
+	font-family: Vonique, sans-serif;
+	width:50%;
+	margin:20px 0;
+	padding:5px 5px 0 5px;
+	font-size:10pt;
+	border:1px solid #F0DE86;
+	border-radius:50px;
+	color:#F0DE86;
+	text-align: center;
+}
+
+
+
+	/* SETTINGS PAGE */
+.settings{
+
+}
+
+.profile-settings{
+	padding-top:50px;
+	width:100vw;
+	box-sizing: border-box;
+}
+
+.deel1{
+	height:20vh;
+}
+
+.deel1 > h1{
+	text-align: center;
+	box-sizing: border-box;
+	margin:0;
+}
+
+.deel1 > h2{
+	margin-top: 10px;
+	font-size:14pt;
+}
+
+#show-email{
+	font-family: Montserrat, sans-serif;
+}
+
+.deel2{
+	height:75vh;
+}
+
+.deel2 > form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.deel2 > form > input{
+	width:80vw;
+	font-size:15pt;
+	margin:10px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius:15px;
+	padding:15px;
+	background-color: #484A4E;
+	color:#fff;
+	border:none;
+	color:#F0DE86;
+}
+
+
+
+	/* USER PAGE */
+.user-name-overflow{
+	max-height:5vh;
+	overflow: scroll;
+}
+
+
+
+	/* MOBILE */ 
+@media screen and (min-width: 1125px) {
+
+
+
+	#return-button{
+		width:25vw;
+	}
+
+
+
+		/* START PAGE (index.php) */
+	.login-button{
+		width:40vw;
+	}
+
+
+
+		/* REGISTER PAGE (register.php) */
+
+
+
+		/* LOGIN PAGE (login.php) */
+	.register > form{
+		width:40vw;
+	}
+
+	.register > form > input{
+		width:34vw;
+	}
+
+	.register > form > span{
+		width:34vw;
+	}
+
+
+
+		/* HOME (home.php) */
+	.main-home-desktop{
+		margin:auto;
+		width:30vw;
+	}
+
+	.post-body{
+		background-color: #313339;
+		padding-top:5vh;
+	}
+
+	.post-body > nav{
+		position: fixed;
+		top:0;
+	}
+
+	.post{
+		background-color: #424242;
+	}
+
+	.post > img{
+		max-height:700px;
+	}
+
+	.description{
+		max-height: 200px;
+	}
+
+
+
+		/* PROFILE */
+	.user-name-overflow{
+		overflow: auto;
+	}
+
+	.profile-post{
+		width:19.82vw;
+		height:19.82vw;
+	}
+
+
+
+		/* UPLOAD PAGE (upload.php) */
+	.upload-page{
+		display: block;
+		text-align: center;
+	}
+
+	.upload-page > form{
+		margin: auto;
+		width: 50vw;
+	}
+
+	.upload-page > form > input{
+		width:40vw;
+	}
+
+	.upload-page > form > textarea{
+		width:40vw;
+	}
+
+
+
+		/* EDIT & DELETE PAGE (edit.php) */
+	.photo-edit-page{
+		width:100%;
+		height:100%;
+		max-width:60vw;
+		max-height:60vw;
+	}
+
+	#delete-button{
+		width:25vw;
+	}
+
+
+
+		/* SETTINGS (settings.php) */
+	.deel2 > form > input{
+		width:40vw;
+	}
+
+	#send-button{
+		width:41.5vw;
+	}
+
+}
+
+
+
+	/* DESKTOP SMALL P P*/
+@media screen and (min-width: 1126px) and (max-width: 1884px) {
+	.profile-post{
+		width:19.75vw;
+		height:19.75vw;
+	}
+}
+

@@ -1,0 +1,47 @@
+.modaal{
+	position: fixed;
+	top:0;
+	left:0;
+	height:100vh;
+	width:100vw;
+	background-color: rgba(0,0,0,0.7);
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+.modaal-img{
+    max-width: 90vw;
+}
+
+.modaal-con{
+	background-color: #40414a;
+	max-width: 70vh;
+	padding:10px 20px;
+	max-height: 80vh;
+	overflow: auto;
+}
+
+.sluit-knop{
+	color:#F0DE86;
+	float:right;
+	font-size:20pt;
+	margin-bottom:10px;
+}
+
+.sluit-knop:active{
+	color:red;
+}
+
+@media screen and (min-width: 1125px) {
+	.modaal-con{
+		max-width: 80vw;
+		max-height:90vh;
+	}
+
+	.modaal-con > img{
+		max-width: 80vw;
+		max-height: 80vh;
+		object-fit: cover;
+	}
+}

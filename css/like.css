@@ -1,0 +1,14 @@
+#likeKnop{
+	display: none;
+}
+
+.ster{
+	margin: 0 5px;
+	font-size:16pt;
+	color:#F0DE86;
+	transition: 0.2s;
+}
+
+#likeKnop:checked ~ .ster{
+	color:red;
+}

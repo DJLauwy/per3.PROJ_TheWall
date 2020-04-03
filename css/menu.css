@@ -1,0 +1,57 @@
+.fas{
+	color:#F0DE86;
+	font-size:20pt;
+	padding-right:8px;
+}
+
+.nav2{
+	background-color: #40414a;
+	padding:5px;
+	box-sizing: border-box;
+	height:100vh;
+	width:100vw;
+	position: fixed;
+	left:0;
+	z-index:10;
+	transition: left 0.3s ease;
+}
+
+.nav2 > ul{
+	margin-top:5px;
+}
+
+.nav2 > ul > a > li{
+	margin-top:10px;
+	font-family: Vonique, sans-serif;
+	font-size:20pt;
+	padding:5px;
+	list-style: none;
+	border-bottom: 1px solid grey;
+	color:#F0DE86;
+}
+
+#menuSwitcher{
+	display: none;
+}
+
+#menuSwitcher:checked ~ .nav2{
+	left:100vw;
+}
+
+.close-button{
+	font-size:35pt;
+	margin:0 5px 0 5px;
+}
+
+@media screen and (min-width: 1125px) {
+
+	.nav2{
+		left:75vw;
+		width:25vw;
+	}
+
+	#menuSwitcher:checked ~ .nav2{
+		left:100vw;
+	}
+
+}
