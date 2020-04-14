@@ -11,7 +11,7 @@
   - Re-added the space on left and right in the description
   - Added copyright meta-tag in head.incl.php. Zona is now copyrighted. Copyrighted by ©Copyrighthouse: http://www.copyrighthouse.nl/ !
   
-14-4-2020: The Wall (Zona) v0.3
+14-4-2020: The Wall (Zona) Alpha v0.3
   - Fixed back button arrow on the profile, edit and user page
   - Added terms of privacy and policy
   - Added FAQ
