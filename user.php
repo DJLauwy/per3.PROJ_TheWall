@@ -35,7 +35,7 @@
 
 		<!-- PROFILE NAV -->
 		<nav class="profile-nav">
-			<a href="home.php">
+			<a href="home.php" class="back-button">
 				<img src="icon/back-icon.svg" height="25px" width="25px">
 			</a>
 			<h1 class="user-name-overflow"><?php echo $posts[0]['voornaam'] . ' ' . $posts[0]['achternaam']; ?></h1>
