@@ -49,7 +49,7 @@
 				<form action="settings.process.php?id=<?php echo $_GET['id'] ?>" method="post">
 					<input type="text" value="<?php echo $voornaam ?>" placeholder="first name" name="voornaam" required>
 					<input type="text" value="<?php echo $achternaam ?>" placeholder="surname" name="achternaam" required>
-					<input type="submit" value="save changes" id="send-button">
+					<input type="submit" value="save changes" id="save-button">
 				</form>
 			</div>
 

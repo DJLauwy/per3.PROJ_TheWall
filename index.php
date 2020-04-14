@@ -1,6 +1,7 @@
 <?php 
 	require 'incl/config.incl.php';
 	require 'incl/head.incl.php';
+
  ?>
 	<title>Zona | Your music platform</title>
 	
@@ -20,7 +21,7 @@
 
 			<a href="register.php"><input type="button" value="register" class="login-button register-button"></a>
 
-			<a href="faq.php"><h4>zona's<span class="zona-color"> terms of service</span> and <span class="zona-color">privacy</span> policy</h4></a>
+			<a href="faq.php"><h4>Zona<span id="komma">'</span>s<span class="zona-color"> terms of service</span> and <span class="zona-color">privacy</span> policy</h4></a>
 		</section>
 	</body>
 </html>
