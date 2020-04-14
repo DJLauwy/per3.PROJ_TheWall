@@ -21,3 +21,5 @@
   - Removed id from URL on your own profile page
   - Added working links in footer
   - Added Spotify link in footer
+  - Description posts are now having a maximal character limit
+  - Description post limit is increased from 500 character to 2000 character
